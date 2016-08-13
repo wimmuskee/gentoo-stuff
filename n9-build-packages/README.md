@@ -5,10 +5,10 @@ This part of the repository contains an explanation of the steps I used, as well
 
 ## The target
 First we need to find out the architecture of the N9, but also the glibc version we need to use to make compatible packages. For both we need to log in to the phone and be able to ssh some stuff.
-1. Open Terminal on the N9
-2. Log in using *devel-su* and password *rootme*.
-3. Set a password for the default user if you haven't already.
-4. Connect to a local network, find out the ip using *ip a*, and connect using SSH with the user account.
+- Open Terminal on the N9
+- Log in using *devel-su* and password *rootme*.
+- Set a password for the default user if you haven't already.
+- Connect to a local network, find out the ip using *ip a*, and connect using SSH with the user account.
 
 Now you can easily view the processor architecture (armv7a), but also copy an executable to a computer which has *file* installed, in order to look up the required glibc version.
 ```
