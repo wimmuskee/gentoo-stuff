@@ -1,0 +1,7 @@
+# configuration variables for statistics scripts
+
+# set to 1 to print tmpfile locations
+DEBUG=1
+
+# local dir with clone of github/gentoo/gentoo
+GIT_GENTOO_PACKAGES="/opt/gentoo"
